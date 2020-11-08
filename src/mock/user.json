@@ -1,0 +1,6 @@
+{
+  "username": "Test User",
+  "email": "test@example.com",
+  "password": "password",
+  "authToken": "generatedtoken"
+}

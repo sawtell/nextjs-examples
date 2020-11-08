@@ -1,5 +1,7 @@
 .container {
   min-height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -52,8 +54,7 @@
   font-size: 4rem;
 }
 
-.title,
-.description {
+.title {
   text-align: center;
 }
 
@@ -73,8 +74,8 @@
 
 .grid {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
